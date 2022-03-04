@@ -1,0 +1,271 @@
+/* max-width: 1170px */
+@media all and (max-width: 1170px) {
+  .container {
+    padding: 0 2rem;
+  }
+  /* banner-area */
+}
+/* max-width: 990px */
+@media all and (max-width: 990px) {
+  .container {
+    padding: 0 2rem;
+  }
+  /* banner-area */
+  .min-menu {
+    display: none;
+  }
+  .menu-bars {
+    display: block;
+  }
+  /* banner-area */
+  .banner-caption {
+    max-width: 420px;
+  }
+  .banner-text h4 {
+    font-size: 1.6rem;
+  }
+  .banner-text h2 {
+    font-size: 65px;
+    line-height: 70px;
+  }
+  /* servics-item */
+  .servics-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10rem;
+    margin-top: 5rem;
+  }
+  .single-servics {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+  }
+  /* book-trip-items */
+  .active-profile {
+    left: 150px;
+  }
+  .partner-items {
+    grid-gap: inherit;
+  }
+  /* footer-area */
+  .footer-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-single-item {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .tes-profile-tow {
+    top: 80%;
+  }
+}
+
+/* max-width: 767px */
+@media all and (max-width: 767px) {
+  /* banner-area */
+  .banner-area {
+    background: url(../image/hero-banner.png) no-repeat scroll top center /
+      cover;
+    /* height: 100vh; */
+  }
+  .banner-caption {
+    max-width: 392px;
+  }
+  .banner-text h4 {
+    font-size: 1.6rem;
+  }
+  .banner-text h2 {
+    font-size: 51px;
+    line-height: 60px;
+  }
+  /* servics-item */
+  .servics-item {
+    margin-top: 3rem;
+  }
+  .single-servics {
+    max-width: 250px;
+    width: 100%;
+    margin: auto;
+  }
+  /* destination-items  */
+  .destination-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .destination-single-item:last-child {
+    grid-column: span 2;
+    width: 350px;
+    margin: auto;
+  }
+  /* book-trip-items  */
+  .book-trip-items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5rem;
+  }
+  .book-single-profile {
+    position: relative;
+    max-width: 370px;
+    height: 400px;
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+      0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852);
+    border-radius: 26px;
+  }
+  .active-profile {
+    left: 224px;
+  }
+  .testimonial-items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+  .testimonial-next-prev {
+    right: -102px;
+  }
+  .tes-profile-one img {
+    top: -41px;
+    left: 27px;
+  }
+  .testimonial-right {
+    margin: 5rem 0;
+  }
+  .partner-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .partner-single-item {
+    margin-top: 5rem;
+  }
+  .subscribe-caption h2 {
+    font-size: 2rem;
+  }
+  .book-profile {
+    margin: auto;
+  }
+  .tes-profile-tow {
+    margin-top: 121px;
+  }
+  .testimonial-area {
+    padding-bottom: 26rem;
+  }
+  .footer-single-item:last-child {
+    grid-column: span 2;
+    max-width: 200px;
+    margin: auto;
+  }
+  .destination-single-item {
+    margin-bottom: 3rem;
+  }
+}
+/* max-width: 550px */
+@media all and (max-width: 550px) {
+  /* banner-area */
+  .menu-area {
+    flex-direction: column;
+  }
+  .header-logo {
+    margin-bottom: 3rem;
+  }
+  .menu ul li a {
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+  }
+  .menu ul li a.sign-up {
+    padding: 0.5rem;
+  }
+  /* caption-btn */
+  .custom-btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+  }
+  .banner-caption {
+    margin-top: 7rem;
+  }
+  .servics-item {
+    margin-top: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-servics {
+    max-width: auto;
+    width: 100%;
+    margin: auto;
+  }
+  .section-title h4 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  /* destination-items  */
+  .destination-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .destination-single-item:last-child {
+    grid-column: span 1;
+    max-width: 100%;
+    width: 100%;
+  }
+  .active-profile {
+    left: 200px;
+  }
+  .partner-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .menu-bars {
+    margin-left: 2rem;
+  }
+}
+/* max-width: 480px */
+@media all and (max-width: 480px) {
+  /* banner-area */
+  .banner-area {
+    background: url(../image/hero-banner.png) no-repeat scroll top center /
+      cover;
+  }
+  .banner-caption {
+    max-width: 300px;
+  }
+  .banner-text h4 {
+    font-size: 1.4rem;
+  }
+  .banner-text h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .partner-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .active-profile {
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
+    left: 170px;
+    bottom: -65px;
+  }
+  .tes-profile-tow {
+    margin-top: 163px;
+    width: 100%;
+    left: 0;
+  }
+  .subscribe-input {
+    max-width: auto;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .sub-input {
+    max-width: inherit;
+    margin-bottom: 2rem;
+  }
+  .menu ul li a.sign-up-link {
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+  }
+  .menu-bars {
+    margin-left: 1rem;
+  }
+}
